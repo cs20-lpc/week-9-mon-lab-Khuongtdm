@@ -94,7 +94,7 @@ template <typename T>
 void LinkedQueue<T>::enqueue(const T& elem) {
     // TODO
     Node* newNode = new Node(elem);
-    if (length ==0 )
+    if (this->length ==0 )
     {
         head = newNode;
         last = newNode;
